@@ -1,0 +1,213 @@
+/*style*/
+body{
+	font: 16px/28px arial, sans-serif;
+	background-color: darkgrey;
+	color: #333;
+	padding: 80px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.nav li:hover{
+	background-color: grey;
+}
+
+.pageheader{
+	padding-top: 40px;
+	padding-left: 25px;
+
+}
+
+.form{
+	padding-top: 20px;
+}
+
+.pagewrap {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    filter: none;
+}
+
+.pagewrap img:hover{
+	filter: brightness(50%);
+	opacity: .8;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: 2px solid white;
+}
+
+.thumbnail img:hover{
+	background-color: white;
+	opacity: .7;
+}
+
+.foto{
+	padding: 10px;
+	box-shadow: 0px 0px 0px #333, 0px 0px 5px rgba(0,0,0,.7);
+}
+
+.foto h3{
+	text-align: center;
+}
+
+.foto p{
+	margin-bottom: 20px;
+	font-size: 12px;
+	color: black;
+	text-align: center;
+}
+
+.foto .penulis a{
+	color: salmon;
+}
+
+.caption p{
+	text-align: justify;
+	color: #999;
+}
+
+.caption p{
+	font-size: 12px;
+}
+
+.swipe li a:hover{
+	background-color: white;
+}
+.about{
+	background-color: lightgray;
+	text-align: center;
+}
+
+
+.list-group-item1{
+	background-color: #333;
+	height: 50px;
+	color: gray;
+	text-align: center;
+	padding-top: 15px;
+	
+}
+
+.list-group-item3{
+	border: 1px solid darkgrey;
+	background-color: white;
+	padding: 10px;
+}
+
+.list-group-item2{
+	background-color: darkgrey;
+	height:90px;
+	border: 1px solid darkgrey;
+}
+
+.list-group-item2 button{
+	margin-top: 25px;
+	background-color: lightgrey;
+}
+
+.list-group-item2 button:hover{
+	background-color: #333;
+	color: white;
+}
+
+
+.hero{
+	background-color: darkgrey;
+	padding-bottom: 20px;
+	
+}
+
+.button{
+	margin-bottom: 20px;
+}
+
+.btn-group{
+	position: absolute;
+}
+
+.btn-group img{
+	width: 50px;
+	height: 50px;
+	position: relative;
+}
+
+.btn-group p{
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+.contact button {
+	background-color: lightgray;
+	color: black;
+}
+
+.contact button:hover {
+	background-color: black;
+	color: white;
+}
+
+.info{
+	background-color: #666;
+	padding: 20px;
+}
+
+.media{
+	padding-top: 10px;
+}
+
+.media-left img{
+	width: 80px;
+	height: 80px;
+}
+
+.akun-saya{
+
+}
+
+.akun-saya img{
+	width: 30px;
+	height: 30px;
+}
+
+.akun-saya img:hover{
+	filter: white;
+}
+
+.footer{
+	background-color: black;
+	height: 100px;
+	color: darkgrey;
+	padding-top: 10px;
+}
+
+/*sidebar*/
+
+/*clearfix*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
